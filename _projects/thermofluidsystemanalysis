@@ -3,9 +3,9 @@ layout: project
 title: Thermofluid System Analysis
 description: Counter flow vs. Parallel flow Heat Exchangers
 technologies: []
-image: /assets/images/function-graph.png
+image: /assets/images/Heat Exchanger collage
 ---
-Counter flow vs. Parallel flow Heat Exchangers
+
 Team Members: Connor Hyde and Andrew Peene
 A heat exchanger is a device that transfers thermal energy between two fluids while keeping them physically separate. One fluid is hotter and releases heat, and the other is cooler and absorbs that heat. They move through different channels, such as tubes or plates, divided by a solid wall that conducts heat but prevents mixing. As they pass through the exchanger, the temperature difference between the fluids drives heat from the hotter stream to the colder one.
 The way the fluids flow determines how the exchanger performs. In parallel flow, both fluids enter from the same side and travel in the same direction, so the temperature difference is highest at the start and drops off quickly. In counter-flow, the fluids travel in opposite directions, which keeps the temperature difference more consistent and improves overall heat transfer.
@@ -14,81 +14,26 @@ In general, a heat exchanger’s role is to transfer thermal energy efficiently 
 
 
 
+## Data
+
+### Counter Flow
+
+| Run | State   | TC (°C) | TH (°C) | THE (°C) |
+|-----|---------|---------|---------|----------|
+| 1   | Initial | 2.1     | 28.0    | 22.0     |
+| 1   | Final   | 11.3    | 10.0    | 23.1     |
+| 2   | Initial | 7.0     | 21.0    | 21.5     |
+| 2   | Final   | 13.2    | 11.5    | 19.0     |
 
 
+### Parallel Flow
 
-
-
-
-
-
-
-Photos:
-
-
-
-
-Data:
-
-Counter Flow
-Run
-State
-TC (°C)
-TH (°C)
-THE (°C)
-1
-Initial 
-2.1
-28.0
-22.0
-
-
-Final 
-11.3
-10
-23.1
-2
-Initial 
-7.0
-21.0
-21.5
-
-
-Final 
-13.2
-11.5
-19.0
-
-
-
-Parallel Flow
-Run
-State
-TC (°C)
-TH (°C)
-THE (°C)
-1
-Initial 
-7.3
-23.0
-23.0
-
-
-Final 
-12.0
-13.9
-20.0
-2
-Initial 
-8.5
-21.1
-22.5
-
-
-Final 
-12.2
-13.6
-20.1
+| Run | State   | TC (°C) | TH (°C) | THE (°C) |
+|-----|---------|---------|---------|----------|
+| 1   | Initial | 7.3     | 23.0    | 23.0     |
+| 1   | Final   | 12.0    | 13.9    | 20.0     |
+| 2   | Initial | 8.5     | 21.1    | 22.5     |
+| 2   | Final   | 12.2    | 13.6    | 20.1     |
 
 
 Analysis:
