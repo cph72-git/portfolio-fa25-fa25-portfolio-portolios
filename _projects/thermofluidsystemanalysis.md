@@ -3,7 +3,7 @@ layout: project
 title: Thermofluid System Analysis
 description: Counter flow vs. Parallel flow Heat Exchangers
 technologies: []
-image: /assets/images/Heat Exchanger collage
+image: /assets/images/heat-exchanger-collage.jpg
 ---
 
 Team Members: Connor Hyde and Andrew Peene
